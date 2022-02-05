@@ -1,0 +1,166 @@
+body{
+ text-align: center;
+  font-family: 'Courgette' cursive;
+  background-color: hsl(180deg 40% 94%);
+}
+.profile-photo{
+  border-radius: 100%;
+  height: 12rem;
+  width: 12rem;
+  margin-top:6%;
+}
+
+div{
+  background-color: hsl(180deg 40% 94%);
+margin-left: 0;
+margin-right: 0;
+}
+.main-h{
+margin: 3.125rem auto 0 auto;
+  line-height: 2;
+font-family: 'Courgette', cursive;
+font-size: 534%;
+color: #66BFBF;
+  position:static;
+}
+.main-p{
+  margin: 0 auto 50px auto;
+  font-weight: normal;
+  line-height: 2;
+  font-size:2.5rem;
+  font-family: 'Courgette', cursive;
+  position:relative;
+  color:#66BFBF;
+}
+body{
+  margin:0;
+}
+.top-container{
+background-color:hsl(180deg 40% 94%);
+padding-top: 4.375rem;
+position: relative;
+
+}
+.bottom-container{
+
+background-color:#11999E;
+padding-bottom: 30px;
+
+}
+.contact-me{
+padding-bottom: 30px;
+
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 20rem;
+}
+.top-cloud{
+position: absolute;
+  right: 18.75rem;
+  top:0.625rem;
+}
+.middle-div-cloud{
+  position: absolute;
+  right: 9.75rem;
+top:49.6rem;
+}
+
+.rainbow{
+  background-color: #5fc1d4;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 16px;
+
+}
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
+.rainbow-2:hover{
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+  animation:slidebg 2s linear infinite;
+}
+.rainbow-3:hover{
+   background-image:     linear-gradient(
+      to right,
+      #E7484F,
+      #F68B1D,
+      #FCED00,
+      #009E4F,
+      #00AAC3,
+      #732982
+    );
+  animation:slidebg 2s linear infinite;
+}
+.rainbow-4:hover{
+   background-image:     linear-gradient(
+      to right,
+      #E7484F,
+      #E7484F 16.65%,
+      #F68B1D 16.65%,
+      #F68B1D 33.3%,
+      #FCED00 33.3%,
+      #FCED00 49.95%,
+      #009E4F 49.95%,
+      #009E4F 66.6%,
+      #00AAC3 66.6%,
+      #00AAC3 83.25%,
+      #732982 83.25%,
+      #732982 100%,
+      #E7484F 100%
+
+
+
+    );
+  animation:slidebg 4s linear infinite;
+}
+h3{
+  color:#11999E;
+}
+a{
+  color:#11999E;
+}
+h2{
+color:#66BFBF;
+}
+.skill-row{
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.football-gif{
+  width:55%;
+float: left;
+}
+.web-dev-gif{
+  width:25%;
+  border-radius: 50%;
+  background-color: grey;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 28.5px;
+}
+.cpp-gif{
+
+width: 35%;
+  border-radius: 50%;
+  float: right;
+
+}
+.c-png{
+  width: 25%;
+  float: right;
+}
+.football-desc{
+  clear: left;
+}
+.c-desc{
+  clear:right;
+}
